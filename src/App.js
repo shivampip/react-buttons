@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import CircleButton from "./components/circlebutton";
+import DarkButton from "./components/dark-button";
 
 function App() {
   return (
     <div className="App">
-      <CircleButton/>
+      <DarkButton/>
     </div>
   );
 }
